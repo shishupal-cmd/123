@@ -1,2 +1,2 @@
-variables:
+tweak:
     epochs=1
