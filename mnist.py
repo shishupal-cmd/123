@@ -17,4 +17,4 @@ model.add(Dense(units=256 , activation='relu'))
 model.add(Dense(units=10 , activation = 'softmax'))
 from keras.optimizers import RMSprop
 model.compile(optimizer =RMSprop() , loss='categorical_crossentropy',metrics=['accuracy'])
-model.fit(X_train_1d ,Y_train_cat ,epochs=100)
+model.fit(X_train_1d ,Y_train_cat ,epochs=tweak.epochs_no)
