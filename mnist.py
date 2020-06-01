@@ -54,9 +54,9 @@ from os import system
 
 if acc > 98:
     
-    system("echo 'true' > /task4/code_file/accuracy.txt")
+    system("echo  'true' > ./accuracy.txt")
 
 else:
 
-    system("echo 'false' > /task4/code_file/accuracy.txt")
+    system("echo 'false' > ./accuracy.txt")
 
