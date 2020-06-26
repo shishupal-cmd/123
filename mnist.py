@@ -42,7 +42,7 @@ from keras.optimizers import RMSprop
 
 model.compile(optimizer =RMSprop() , loss='categorical_crossentropy',metrics=['accuracy'])
 
-h=model.fit(X_train ,Y_train_cat ,epochs=tweak.epochs_no)
+h=model.fit(X_train ,Y_train_cat ,epochs = tweak.epoch_no)
 
 acc=model.evaluate(X_test,Y_test_cat)[1]
 
